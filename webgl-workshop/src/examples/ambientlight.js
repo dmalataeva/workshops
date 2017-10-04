@@ -11,15 +11,12 @@ var shape = new THREE.DodecahedronBufferGeometry(10);
 var material = new THREE.MeshPhongMaterial(0xFF4D4D);
 var mesh = new THREE.Mesh(shape, material);
 
-var ambient = new THREE.AmbientLight(0xFFFFFF, 0.1);
-var light = new THREE.DirectionalLight(0x446644, 0.8);
+var ambient = new THREE.AmbientLight(0xFFFFFF, 1);
 var controls = new THREE.OrbitControls(camera, renderer.domElement);
-light.position.set(0, 0, 0);
 
 scene.add(camera);
 scene.add(mesh);
 scene.add(ambient);
-scene.add(light);
 
 animateMesh();
 

@@ -12,9 +12,9 @@ var material = new THREE.MeshPhongMaterial(0xFF4D4D);
 var mesh = new THREE.Mesh(shape, material);
 
 var ambient = new THREE.AmbientLight(0xFFFFFF, 0.1);
-var light = new THREE.DirectionalLight(0x446644, 0.8);
+var light = new THREE.SpotLight(0xFFFFFF);
 var controls = new THREE.OrbitControls(camera, renderer.domElement);
-light.position.set(0, 0, 0);
+light.position.set(50, 0, 10);
 
 scene.add(camera);
 scene.add(mesh);
