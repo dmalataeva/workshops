@@ -1,6 +1,7 @@
 var media = {
   "snowflake": 'localhost:8080/src/public/snowflake.png',
   "panofolder": 'localhost:8080/src/public/stereoscopics/',
+  "indoor_plant": 'indoor_plant/indoor_plant.dae',
   "gallery_pano": [
 		'stereoscopics/gallery_px.jpg', 
 		'stereoscopics/gallery_nx.jpg', 

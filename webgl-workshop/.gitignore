@@ -1,4 +1,5 @@
 /node_modules
-src/examples
 .DS_Store
 src/scrap.js
+src/public/eyeball
+src/public/TESTSPHERE.dae
