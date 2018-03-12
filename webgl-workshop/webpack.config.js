@@ -1,8 +1,8 @@
 var webpack = require('webpack');
 var path = require('path');
 
-var BUILD_PATH = path.resolve(__dirname, 'src/public');
-var SRC_PATH = path.resolve(__dirname, 'src');
+var BUILD_PATH = path.resolve(__dirname, 'src/js/');
+var SRC_PATH = path.resolve(__dirname, 'src/js/');
 
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const ExtractSass = new ExtractTextPlugin({
@@ -11,7 +11,7 @@ const ExtractSass = new ExtractTextPlugin({
 
 var config = {
   entry: [
-    SRC_PATH + '/script.js'
+    SRC_PATH + 'script.js'
   ],
   output: {
     path: BUILD_PATH,
