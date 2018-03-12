@@ -1,3 +1,2 @@
-/node-setup/node_modules
+/node_modules
 .DS_Store
-src/scrap.js

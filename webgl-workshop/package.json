@@ -1,7 +1,7 @@
 {
   "name": "webgl-workshop",
   "version": "0.0.1",
-  "description": "contains material for use in the uw engsoc webgl workshop",
+  "description": "This project contains material for use in the UW EngSoc WebGL workshop.",
   "dependencies": {
     "babel-cli": "6.14.0",
     "babel-core": "^6.25.0",
